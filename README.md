@@ -1,31 +1,22 @@
-# Lab11
+## Lab 11
 
-Please turn in a file with your output and a file containing your SAS code.  
+## Lab Overview
+For this question, a subset of the tables contained in the History of Baseball database are available. Additional details are available here: [https://www.kaggle.com/seanlahman/the-history-of-baseball](https://www.kaggle.com/seanlahman/the-history-of-baseball). The following tables will be used for these questions:
 
+- player
+- all_star
+- batting
 
-## Questions
+Note the similarity to lab 5, but complete these questions using SAS.
 
-### 1. Using PROC MEANS (10 points)
+### 1. (3 points)
+How many players were born in Montana.
 
-a. Using a LIBNAME reference, load the housing file.
+### 2. (3 points)
+Create and print a table that contains each player born in Montana. The table should contain the player_id as well as given name and their total number of homeruns across all years (one row for each player).
 
-b. Create a new SAS data set that only contains homes in MT, CO, ID, and WY.
+### 3. (3 points)
+Use proc univariate to summarize the total number of homeruns hit by players born in Montana.
 
-c. Use `PROC MEANS` to summarize the price and square footage of the homes **by state**. Note this will require sorting the data set prior to using `PROC MEANS`.
-
-
-### 2. Creating a data set (5 points)
-
-a. Create a data set consisting of your name:
-- name,
-- current location, and 
-- favorite stay-at-home activity.
-
-Also add my info to your dataset
-- name: Andy Hoegh
-- current location: Bozeman
-- favorite stay-at-home activity: cooking
-
-b. Print this data set and make sure to include an informative title.
-
-
+### 4. (3 points)
+Which player(s) made the most appearances as an all star representing the National League (NL)?
